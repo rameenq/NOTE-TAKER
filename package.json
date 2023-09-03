@@ -6,7 +6,8 @@
   "scripts": {
     "heroku-postbuild": "cd Develop-1 && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
